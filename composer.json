@@ -1,0 +1,33 @@
+{
+    "name": "bushart/numbertowords",
+    "description": "A simple modified number to word",
+    "type": "library",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com/busharthussain/number-to-words"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "bushart\\numbertowords\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "busharthussain",
+            "email": "busharthussain@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "bushart\\numbertowords\\NumberToWordServiceProvider"
+            ]
+        }
+    }
+}
